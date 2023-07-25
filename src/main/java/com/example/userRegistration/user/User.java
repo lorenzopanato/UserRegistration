@@ -27,4 +27,9 @@ public class User {
         this.email = data.email();
         this.adress = new Adress(data.adress());
     }
+
+    public void updateInfo(UserUpdateDTO data) {
+        this.name = data.name();
+        this.adress = new Adress(data.adress());
+    }
 }
