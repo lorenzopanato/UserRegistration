@@ -1,0 +1,8 @@
+CREATE TABLE users (
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(50) NOT NULL,
+    email VARCHAR(50) NOT NULL UNIQUE,
+    street VARCHAR(100) NOT NULL,
+    neighborhood VARCHAR(100) NOT NULL,
+    number INT
+)
